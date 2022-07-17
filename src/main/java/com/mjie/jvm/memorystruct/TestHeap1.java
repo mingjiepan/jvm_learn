@@ -10,9 +10,9 @@ import java.util.List;
  * 堆内存溢出 OutOfMemoryError
  * -Xmx8m
  *
- * jps 查看Java进程
- * jmap 查看某个Java进程的堆内存占用情况（某一时刻）
- * jconsole 连续检测
+ * jps 查看当前系统中有哪些Java进程
+ * jmap 查看某个Java进程的堆内存占用情况（某一时刻）  jmap -heap pid
+ * jconsole 图形界面，连续检测
  */
 public class TestHeap1 {
     public static void main(String[] args) {
